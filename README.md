@@ -7,7 +7,8 @@ This project analyzes COVID-19 data in India to understand how confirmed cases, 
 ## Dataset
 
 * File included in this repository: `covid_19_india.csv`
-* Contains ~18,000+ rows of state-wise COVID-19 data including confirmed, cured, and death cases
+* Contains ~18,000+ rows of state-wise COVID-19 data
+* Includes confirmed, cured, and death cases
 
 ## Tools Used
 
@@ -23,8 +24,8 @@ This project analyzes COVID-19 data in India to understand how confirmed cases, 
 * Fixed inconsistent state names (spelling errors and special characters)
 * Converted the Date column into datetime format
 * Created a new column: **Active Cases = Confirmed - (Deaths + Cured)**
-* Performed state-wise aggregation using pivot tables
-* Calculated **Recovery Rate** and **Mortality Rate**
+* Performed state-wise analysis using pivot tables
+* Calculated recovery rate and mortality rate
 * Visualized top states based on active cases and deaths
 
 ## Results
@@ -35,11 +36,11 @@ This project analyzes COVID-19 data in India to understand how confirmed cases, 
 
 ## How to Run
 
-1. Clone this repository or download the files
+1. Download or clone this repository
 2. Install required libraries:
    pip install pandas numpy matplotlib seaborn
 3. Open and run `covid_analysis.ipynb`
 
 ## Conclusion
 
-This project demonstrates data cleaning, feature engineering, aggregation, and visualization using real-world COVID-19 data.
+This project demonstrates data cleaning, feature engineering, and visualization using real-world COVID-19 data.
